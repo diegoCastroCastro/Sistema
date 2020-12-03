@@ -29,7 +29,7 @@ This sample is prepared for running unit tests with the Arquillian framework.
 The configuration can be found in "sistema\pom.xml":
 
 Three profiles are defined:
--"default": no integration tests are executed.
+-"default": no integration 
 -"arq-remote": you have to start a WildFly server on your machine. The tests are executed by deploying 
  the application to this server.
  Here the "maven-failsafe-plugin" is enabled so that integration tests can be run.
